@@ -1,6 +1,6 @@
 import logo from './logo.svg';
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -21,13 +21,11 @@ import viewcandidates from './viewcandidates';
 
 function App() {
   return (
-   <><Router>
-  <div className="nav">
-  
-         < Nav></ Nav>
-     </div>
-     
-     <Switch>
+   <>
+   <Router>
+        <Nav></Nav>
+        <div className="container">
+          <Switch>
             <Route path="/login" component={Login} exact />
             <Route path="/register" component={Register} exact />
             <Route path="/reclogin" component={Reclogin} exact />
@@ -37,7 +35,9 @@ function App() {
             <ProtectedRoute path="/applied/:id" component={Applied} exact />
             <ProtectedRoute path="/viewcandidates/:id" component={viewcandidates} exact />
           </Switch>
+        </div>
       </Router>
+
    </>
   );
 }
