@@ -1,7 +1,7 @@
 import { useHistory, withRouter } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import { Getjobs, GetuserbyId, Postappliedjobs } from "./api";
 
 function Job(props){
