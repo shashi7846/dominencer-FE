@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { Postregister } from "./api";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBuilding, faClock, faCodeBranch, faKey, faMailBulk, faPhone, faUser} from '@fortawesome/free-solid-svg-icons';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBuilding, faClock, faCodeBranch, faKey, faMailBulk, faPhone, faUser} from '@fortawesome/free-solid-svg-icons'
 
 function Register(){
 
@@ -42,7 +41,7 @@ function Register(){
                             }}>
                             <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faUser} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faUser} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="text" class="form-control" placeholder="User Name" required value={username} onChange={(e) => {
                                         setUsername(e.target.value);
@@ -50,7 +49,7 @@ function Register(){
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faMailBulk} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faMailBulk} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="email" class="form-control" placeholder="email" required value={email} onChange={(e) => {
                                         setEmail(e.target.value);
@@ -58,7 +57,7 @@ function Register(){
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faKey} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faKey} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="password" class="form-control" placeholder="password" required value={password} onChange={(e) => {
                                         setPassword(e.target.value);
@@ -66,7 +65,7 @@ function Register(){
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faPhone} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faPhone} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="tel" class="form-control" placeholder="99xx99xx99" pattern="[0-9]{10}" required value={phone} onChange={(e) => {
                                         setPhone(e.target.value);
@@ -74,7 +73,7 @@ function Register(){
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faBuilding} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faBuilding} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="text" class="form-control" placeholder="College Studied" required value={college} onChange={(e) => {
                                         setCollege(e.target.value);
@@ -82,7 +81,7 @@ function Register(){
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faClock} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faClock} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="number" class="form-control" placeholder="Year of Passing"  required value={year} onChange={(e) => {
                                         setYear(e.target.value);
@@ -90,14 +89,14 @@ function Register(){
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faCodeBranch} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faCodeBranch} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="text" class="form-control" placeholder="Branch Studied"  required value={branch} onChange={(e) => {
                                         setBranch(e.target.value);
                                     }}/>
                                 </div>
                                 <div class="form-group">
-                                    <input type="submit" value="Register" class="btn float-right btn-warning" />
+                                    <input type="submit" value="Register" class="btn float-right btn-dark" />
                                 </div>
                             </form>
                         </div>
