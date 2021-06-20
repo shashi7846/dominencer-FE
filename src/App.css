@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -7,11 +7,11 @@
   pointer-events: none;
 }
 
- @media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-} 
+}
 
 .App-header {
   background-color: #282c34;
@@ -36,14 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+
+.nav{
+  background-color: #282c34;
+  
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 html,body{
-  background-image: url('https://lh3.googleusercontent.com/proxy/AoP91U2uctBDvVoQWqbLLp3EASV6gNo72vwy6CH1x1AiJSbrBRykcGcYkvmzboaS3-HqS9vUnoZEtTQuOEunugk1ftpd6urYcZGcZMTru9WlMby3lPfqZCnNnADjQZjJYjZ-6sXS7aL5cZBRXtJhuNK0POdpkjLwr3Xsw-RbaML8JV1oC0NNaXJgKpnfY9usL9MqPYgqpho920_aDJJ1IG0');
+  background-image: url('https://cdn.hipwallpaper.com/i/16/81/pgxhOV.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   
   font-family: 'Numans', sans-serif;
   }
-
+  
+  .container{
+  height: 100%;
+  align-content: center;
+  }
+  
   .card1{
   margin-top: auto;
   margin-bottom: auto;
@@ -58,7 +109,7 @@ html,body{
   .social_icon span{
   font-size: 60px;
   margin-left: 10px;
-  color: #FFC312;
+  color: #201c0e;
   }
   
   .social_icon span:hover{
@@ -74,7 +125,7 @@ html,body{
   
   .input-group-prepend span{
   width: 50px;
-  background-color: #FFC312;
+  background-color: black;
   color: black;
   border:0 !important;
   }
@@ -104,8 +155,7 @@ html,body{
   .links a{
   margin-left: 4px;
   }
-
-.nav{
-  background-color: #282c34;
-  
-}
+  .nav{
+    background-color: #282c34;
+    
+  }
