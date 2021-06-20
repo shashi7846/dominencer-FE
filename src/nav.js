@@ -15,8 +15,8 @@ return (
             <div class="collapse navbar-collapse" >
                 <div className="navbar-nav">
                     <Link class="nav-item nav-link active text-light" to="/">Home</Link>
-                    <Link class="nav-item nav-link text-light" to="/Recruiterlogin">RecruiterLogin</Link>
-                    <Link class="nav-item nav-link text-light" to="/RecruiterRegister">Recruiter Register</Link>
+                    <Link class="nav-item nav-link text-light" to="/reclogin">RecruiterLogin</Link>
+                    <Link class="nav-item nav-link text-light" to="/recregister">Recruiter Register</Link>
                     <Link class="nav-item nav-link text-light" to="/login">Login</Link>
                     <Link class="nav-item nav-link text-light" to="/register">Register</Link>
                     
