@@ -17,10 +17,10 @@ function Recregister(){
 
     return(
         <>
-        <div className="container mt-5">
-                <div className="d-flex justify-content-center h-100">
-                    <div className="card1">
-                        <div className="card-header">
+        <div class="container mt-5">
+                <div class="d-flex justify-content-center h-100">
+                    <div class="card1">
+                        <div class="card-header">
                             <h3>Recruiter Register</h3>
                         </div>
                         <div class="card-body">
@@ -31,11 +31,11 @@ function Recregister(){
                                 setPassword("");
                                 setUsername("");
                                 setPhone("");
-                                history.push(`/login`);
+                                history.push(`/reclogin`);
                             }}>
                             <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faUser} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faUser} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="text" class="form-control" placeholder="User Name" required value={username} onChange={(e) => {
                                         setUsername(e.target.value);
@@ -43,7 +43,7 @@ function Recregister(){
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faMailBulk} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faMailBulk} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="email" class="form-control" placeholder="email" required value={email} onChange={(e) => {
                                         setEmail(e.target.value);
@@ -51,7 +51,7 @@ function Recregister(){
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faKey} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faKey} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="password" class="form-control" placeholder="password" required value={password} onChange={(e) => {
                                         setPassword(e.target.value);
@@ -59,14 +59,14 @@ function Recregister(){
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faPhone} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faPhone} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="tel" class="form-control" placeholder="99xx99xx99" pattern="[0-9]{10}" required value={phone} onChange={(e) => {
                                         setPhone(e.target.value);
                                     }} />
                                 </div>
                                 <div class="form-group">
-                                    <input type="submit" value="Register" class="btn float-right btn-warning" />
+                                    <input type="submit" value="Register" class="btn float-right  btn-dark" />
                                 </div>
                             </form>
                         </div>
