@@ -37,80 +37,8 @@
   }
 }
 
-html,body{
-  background-image: url('https://lh3.googleusercontent.com/proxy/AoP91U2uctBDvVoQWqbLLp3EASV6gNo72vwy6CH1x1AiJSbrBRykcGcYkvmzboaS3-HqS9vUnoZEtTQuOEunugk1ftpd6urYcZGcZMTru9WlMby3lPfqZCnNnADjQZjJYjZ-6sXS7aL5cZBRXtJhuNK0POdpkjLwr3Xsw-RbaML8JV1oC0NNaXJgKpnfY9usL9MqPYgqpho920_aDJJ1IG0');
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-  font-family: 'Numans', sans-serif;
-  }
-  
-  .container{
-  height: 100%;
-  align-content: center;
-  }
-  
-  .card1{
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 400px;
-  background-color: rgba(0,0,0,0.5) !important;
-  }
-  
-  .extra{
-    background-color: rgba(0,0,0,0.5) !important;
-  }
-  
-  .social_icon span{
-  font-size: 60px;
-  margin-left: 10px;
-  color: #FFC312;
-  }
-  
-  .social_icon span:hover{
-  color: white;
-  cursor: pointer;
-  }
-  
-  .card-header h3{
-  color: white;
-  }
-  
-  
-  
-  .input-group-prepend span{
-  width: 50px;
-  background-color: #FFC312;
-  color: black;
-  border:0 !important;
-  }
-  
-  input:focus{
-  outline: 0 0 0 0  !important;
-  box-shadow: 0 0 0 0 !important;
-  
-  }
-  
-  .remember{
-  color: white;
-  }
+
 .nav{
   background-color: #282c34;
   
 }
-  
-  .remember input
-  {
-  width: 20px;
-  height: 20px;
-  margin-left: 15px;
-  margin-right: 5px;
-  }
-  
-  .links{
-  color: white;
-  }
-  
-  .links a{
-  margin-left: 4px;
-  }
