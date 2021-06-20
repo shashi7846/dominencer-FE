@@ -94,6 +94,10 @@ html,body{
   .remember{
   color: white;
   }
+.nav{
+  background-color: #282c34;
+  
+}
   
   .remember input
   {
