@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { GetuserbyEmail, Postlogin } from "./api";
-
- import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faKey, faMailBulk} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faKey, faMailBulk} from '@fortawesome/free-solid-svg-icons'
 
 function Login() {
 
@@ -13,7 +12,7 @@ function Login() {
 
     let history = useHistory();
     let userData = { email, password }
- 
+
     return (
         <>
             <div class="container mt-5">
@@ -47,7 +46,7 @@ function Login() {
                             }}>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faMailBulk} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faMailBulk} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="email" class="form-control" placeholder="email" required value={email} onChange={(e) => {
                                         setEmail(e.target.value);
@@ -55,14 +54,14 @@ function Login() {
                                 </div>
                                 <div class="input-group form-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><FontAwesomeIcon icon={faKey} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
+                                        <span class="input-group-text text-white"><FontAwesomeIcon icon={faKey} style={{ fontSize: '1.75em' }}></FontAwesomeIcon></span>
                                     </div>
                                     <input type="password" class="form-control" placeholder="password" required value={password} onChange={(e) => {
                                         setPassword(e.target.value);
                                     }} />
                                 </div>
                                 <div class="form-group">
-                                    <input type="submit" value="Login" class="btn float-right btn-warning" />
+                                    <input type="submit" value="Login" class="btn float-right  btn-dark" />
                                 </div>
                             </form>
                         </div>
