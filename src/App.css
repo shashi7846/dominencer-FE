@@ -36,6 +36,13 @@
     transform: rotate(360deg);
   }
 }
+html,body{
+  background-image: url('https://lh3.googleusercontent.com/proxy/AoP91U2uctBDvVoQWqbLLp3EASV6gNo72vwy6CH1x1AiJSbrBRykcGcYkvmzboaS3-HqS9vUnoZEtTQuOEunugk1ftpd6urYcZGcZMTru9WlMby3lPfqZCnNnADjQZjJYjZ-6sXS7aL5cZBRXtJhuNK0POdpkjLwr3Xsw-RbaML8JV1oC0NNaXJgKpnfY9usL9MqPYgqpho920_aDJJ1IG0');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  font-family: 'Numans', sans-serif;
+  }
 
   .card1{
   margin-top: auto;
